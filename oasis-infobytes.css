@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #545151 ;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-left: 2px;
+}
+
+nav button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #aaa4a4;  
+    text-align: justify;
+    
+}
+
+.about-image img {
+    max-width: 90%;
+    border : 70%;
+    padding-left: 15%;
+
+}
+
+.about-description {
+    margin : 40px;
+    padding: 60px;
+    padding-right: 20 px ;
+    border: #333;
+    border: 2px solid rgb(47, 47, 47);
+    text-align :center;
+}
+
+.about-description h1 {
+    font-size: 28px;
+}
+
+.about-description p {
+    margin-bottom: 10px;
+}
+/* Style each service box */
+.service-box {
+    display: inline-block;
+    width: 26%;
+    margin: 30px 0px 20px 40px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services h2{
+    text-align: center;
+    color: rgb(247, 247, 247);
+}
+
+.service-box i {
+    font-size: 36px;
+}
+
+.service-box h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.service-box p {
+    margin-top: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the hire section */
+#hire {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hire h2 {
+    font-size: 28px;
+}
+
+.hire-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hire-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Additional styling for contact section and footer can be added here */
